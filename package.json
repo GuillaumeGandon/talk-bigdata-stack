@@ -1,0 +1,19 @@
+{
+  "name": "talk-bigdata-stack",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.16.0",
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "^0.25.0",
+    "chart.js": "^4.5.1",
+    "seedrandom": "^3.0.5",
+    "vue": "^3.5.33",
+    "vue-chartjs": "^5.3.3"
+  }
+}
