@@ -13,7 +13,7 @@ drawings:
 comark: true
 ---
 
-![](../Logo_Osmose_Horizontal_VF.png){.w-90.mt--10.mb-5}
+![](/public/Logo_Osmose_Horizontal_VF.png){.w-90.mt--10.mb-5}
 
 ---
 src: ./pages/perso.md
@@ -329,8 +329,8 @@ layout: section
 
 <v-click>
 <div class="mt-4 p-3 bg-gray-900 rounded text-sm text-center">
-  <span class="text-yellow-300">Spark ≈ camion benne</span> — gros volumes, traitement différé &nbsp;|&nbsp;
-  <span class="text-blue-300">Flink ≈ ambulance</span> — faible latence, temps réel critique
+  <span class="text-yellow-300">Spark ≈ camion benne</span> : gros volumes, traitement différé &nbsp;|&nbsp;
+  <span class="text-blue-300">Flink ≈ ambulance</span> : faible latence, temps réel critique
 </div>
 </v-click>
 
@@ -418,7 +418,7 @@ layout: section
     <li>• Interface web de monitoring</li>
   </ul>
   <div class="mt-3 p-2 bg-green-900 rounded text-xs">
-    <b>Chez Uber :</b> piloter le pipeline nocturne — agréger les courses → recalculer les zones de demande → notifier
+    <b>Chez Uber :</b> piloter le pipeline nocturne : agréger les courses → recalculer les zones de demande → notifier
   </div>
 </div>
 </v-click>
@@ -616,14 +616,14 @@ layout: center
 <v-click>
 <div class="p-3 bg-gray-800/70 rounded-lg border-l-4 border-blue-500 flex gap-3 items-center">
   <span class="text-xs uppercase tracking-widest text-blue-300 font-bold w-20 shrink-0">Pourquoi</span>
-  <span>Le Big Data répond à un <b>problème physique</b> : une seule machine a des limites — Uber ne tient pas sur un PostgreSQL.</span>
+  <span>Le Big Data répond à un <b>problème physique</b> : une seule machine a des limites.</span>
 </div>
 </v-click>
 
 <v-click>
 <div class="p-3 bg-gray-800/70 rounded-lg border-l-4 border-purple-500 flex gap-3 items-center">
   <span class="text-xs uppercase tracking-widest text-purple-300 font-bold w-20 shrink-0">Comment</span>
-  <span>Une seule réponse : <b>distribuer</b>. Master/Worker, réplication, partitionnement — les 3 piliers.</span>
+  <span>Une seule réponse : <b>distribuer</b>. Master/Worker, réplication, partitionnement.</span>
 </div>
 </v-click>
 
@@ -637,7 +637,7 @@ layout: center
 <v-click>
 <div class="p-3 bg-gray-800/70 rounded-lg border-l-4 border-yellow-500 flex gap-3 items-center">
   <span class="text-xs uppercase tracking-widest text-yellow-300 font-bold w-20 shrink-0">Réflexe</span>
-  <span><b>Start simple, scale later</b> — la complexité se mérite, elle ne se déploie pas par défaut.</span>
+  <span><b>Start simple, scale later</b> : la complexité se mérite, elle ne se déploie pas par défaut.</span>
 </div>
 </v-click>
 
@@ -653,20 +653,28 @@ layout: center
 layout: center
 ---
 
-# Merci ! 🙏
+<div class="flex flex-col items-center gap-6 text-center">
 
-<div class="mt-4 text-center text-lg text-gray-300">
-  Des questions ? Discutons-en.
-</div>
+  <div class="text-7xl font-black bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent leading-tight">
+    Merci !
+  </div>
 
-<div class="mt-10 flex items-center justify-center gap-6 text-gray-400">
-  <div class="flex items-center gap-2">
-    <span class="text-blue-300">🎙️</span> Guillaume Gandon
+  <div class="text-2xl text-gray-300 font-light">
+    Des questions ? <span class="text-blue-300 font-semibold">Discutons-en.</span>
   </div>
-  <div class="w-px h-5 bg-gray-600"></div>
-  <div class="flex items-center gap-2">
-    <span class="text-blue-300">💼</span> Lead Data Engineer — Osmose
+
+  <div class="mt-4 flex items-center gap-6">
+    <img src="/public/profil_picture.jpg" class="w-20 h-20 rounded-full ring-2 ring-blue-400/50 object-cover" />
+    <div class="text-left">
+      <div class="text-xl font-bold text-white">Guillaume Gandon</div>
+      <div class="flex items-center gap-2 mt-1">
+        <img src="/public/Logo_Osmose_Horizontal_VF.png" class="h-10 object-contain" />
+        <span class="text-sm text-blue-300">Lead Data Engineer</span>
+      </div>
+      <div class="text-xs text-gray-500 mt-2">guillaume.gandon@osmose.fr</div>
+    </div>
   </div>
+
 </div>
 
 ---
@@ -674,3 +682,22 @@ preload: false
 ---
 
 <ViteEco />
+
+---
+layout: center
+---
+
+<div class="flex flex-col items-center gap-6">
+
+  <div class="text-5xl font-black text-white tracking-tight">Quiz time !</div>
+
+  <div class="px-8 py-5 bg-[#46178f] rounded-2xl shadow-2xl text-center">
+    <div class="text-sm uppercase tracking-widest text-purple-300 mb-1">Rejoins le quiz sur</div>
+    <div class="text-4xl font-black text-white mb-3">kahoot.it</div>
+    <div class="text-sm text-purple-200 mb-2">Code du jeu</div>
+    <div class="text-7xl font-black text-yellow-300 tracking-widest">2076743</div>
+  </div>
+
+  <div class="text-gray-400 text-sm">Ou scanne le QR code depuis l'app Kahoot</div>
+
+</div>

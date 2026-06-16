@@ -20,6 +20,8 @@ background: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920&q=8
   </div>
   <div class="w-px h-5 bg-gray-600"></div>
   <div class="flex items-center gap-2">
-    <span class="text-blue-300">🎙️</span> Guillaume Gandon — <span class="opacity-70">Lead Data Engineer, Osmose</span>
+    <span class="text-blue-300">🎙️</span> Guillaume Gandon - <span class="opacity-70">Lead Data Engineer</span>
   </div>
+  <div class="w-px h-5 bg-gray-600"></div>
+  <img src="/public/Logo_Osmose_Horizontal_VF.png" class="h-10 object-contain brightness-0 invert opacity-80" />
 </div>

@@ -10,4 +10,4 @@ glowSeed: 14
 Lead Data Engineer - Osmose<br>
 </div>
 
-<img src="../profil_picture.jpg" rounded-full absolute top-38 right-15 w-40 />
+<img src="/public/profil_picture.jpg" rounded-full absolute top-38 right-15 w-40 />
